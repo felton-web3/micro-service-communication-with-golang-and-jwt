@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+jwt:
+  issuer: "process-auth-service"
+  access_token_duration_min: 15000
+  refresh_token_duration_hours: 72
+  private_key_file: "keys/private.pem"
+  public_key_file: "keys/public.pem"
