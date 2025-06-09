@@ -15,7 +15,7 @@ openssl rsa -pubout -in private.pem -out public.pem
 执行后，你将得到 `private.pem` 和 `public.pem` 两个文件。
 
 
-### 第 5 步：运行和测试
+### 第 2 步：运行和测试
 
 1.  **设置 Go Workspace (推荐)**
     ```bash
